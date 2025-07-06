@@ -39,7 +39,7 @@ const FavoritesList: React.FC<FavoritesListProps> = ({
   }
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-8 max-h-80 overflow-y-auto">
       <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
         <Heart className="h-5 w-5 text-red-400" />
         المدن المفضلة
